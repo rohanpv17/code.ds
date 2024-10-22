@@ -1,0 +1,31 @@
+/* App.css */
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif; /* A common web font */
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* White text color */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: #ff61a6; /* Pink color for headings */
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6; /* Better readability */
+    color: #d1d5db; /* Light gray color for paragraph text */
+}
+
+/* Buttons */
+button {
+    @apply bg-green-500 text-white px-4 py-2 rounded; /* Tailwind utility classes */
+}
+
+button:hover {
+    @apply bg-green-600; /* Darker green on hover */
+}
